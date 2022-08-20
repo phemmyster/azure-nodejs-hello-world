@@ -12,7 +12,7 @@ jobs:
       id: send-keptn-event
       uses: keptn/gh-action-send-event@main
       with:
-        keptnApiUrl: http://20.22.144.90.nip.io/api
+        keptnApiUrl: "http://20.22.144.90.nip.io/api"
         keptnApiToken: 9mP2nHY39hMSHIBDmg1U9ZcUJ0u6vaefQ3JJrOZ2ipnsf
         event: |
           {
