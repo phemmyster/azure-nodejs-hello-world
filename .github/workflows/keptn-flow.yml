@@ -12,8 +12,8 @@ jobs:
       id: send-keptn-event
       uses: keptn/gh-action-send-event@main
       with:
-        keptnApiUrl: ${{ secrets.KEPTN_API_URL }}
-        keptnApiToken: ${{ secrets.KEPTN_API_TOKEN }}
+        keptnApiUrl: http://20.22.144.90.nip.io/api
+        keptnApiToken: 9mP2nHY39hMSHIBDmg1U9ZcUJ0u6vaefQ3JJrOZ2ipnsf
         event: |
           {
             "data": {
